@@ -1,17 +1,109 @@
 <!doctype html>
 <html>
 	<head>
-		
-		<!--Character set-->
+		<!--Meta Tags-->
 		<meta charset ="utf-8"/>
-
+		<meta name="description" content="Filling in course information such as course name, dates, etc"/>
+		<meta name="keywords" content="Course Information"/>
+		<meta name="robot" content="noindex, nofollow"/>
+		<meta name="viewport" content="user-scalable=no, width=device-width"/>
 		<!--Page Title-->
 		<title>College Life Maintence Create Profile Page</title>	
-
 	</head>
 	<body>
-		
-		<!--Body content, What the users see-->
-	
+		<header>
+			<!--Main header--> 
+			<h1>Course Information:</h1>
+		</header>
+			<form action="#" method="post">
+				<fieldset>	
+					<header>
+						<!--Legend Title Text--> 
+						<legend>
+							<h2>
+								Add New Course:
+							</h2>
+						</legend>
+					</header>
+						<li>
+							<label for="MajorByDepartmentSchools"> Major By Department School: </label>
+							<select id="MajorByDepartmentSchools">
+								<optgroup label="College Of Architecture">
+									<option>
+										<value="Architecture">Architecture
+									</option>
+								</optgroup>
+								<optgroup label="Institute Of Arts And Sciences">
+									<option>
+										<value="Biology">Biology
+									</option>
+									<option>
+										<value="Mathematics">Mathematics
+									</option>
+								</optgroup>
+								<optgroup label="Academy Of Business">
+									<option>
+										<value="Accounting">Accounting
+									</option>	
+									<option>
+										<value="Economics">Economics
+									</option>	
+								</optgroup>
+								<optgroup label="Sciences of Engineering Institute">
+									<option>
+										<value="ComputerEngineering">Computer Engineering
+									</option>	
+									<option>
+										<value="ElectricalEngineering">Electrical Engineering
+									</option>
+								</optgroup>
+							</select>
+						</li>
+					<li>
+						<label for="CourseName">Course Name: </label><input type="text" id="CourseName" placeholder="example: Intro to Art"/>
+					</li>
+					<li>
+						<label for="CourseSection">Course Section: </label><input type="text" id="CourseSection" placeholder="example: ART101"/>
+					</li>
+					<header>
+						<h2>
+							Create Schedule:
+						</h2>
+						<h3>
+							Assignments:
+						</h3>
+					</header>
+					<li>
+						<label for="TopicandSection">Topic and Section: <label><input type="text" id="TopicandSection" placeholder="example: Sec 1.1"/>
+					</li>
+					<li>
+						<label for="DueDate">Due Date: <label>
+						<select id="DueDate">
+							<option>
+								<value="Monday">Monday
+							</option>
+							<option>
+								<value="Tuesday">Tuesday
+							</option>
+							<option>
+								<value="Wednesday">Wednesday
+							</option>
+							<option>
+								<value="Thursday">Thursday
+							</option>
+							<option>
+								<value="Friday">Friday
+							</option>
+							<option>
+								<value="Saturday">Saturday
+							</option>
+							<option>
+								<value="Sunday">Sunday
+							</option>
+						</select>	
+					</li>
+
+				</fieldset>
+			</form>	
 	</body>	
 </html>
